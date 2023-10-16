@@ -1,0 +1,10 @@
+def emp(tno,name,sal,clg):
+    print("{}\t{}\t{}\t{}".format(tno,name,sal,clg))
+print("#"*38)
+print("tno\tname\tsalary\tcollege")
+print("@"*38)
+emp(sal=1.6,clg='aswr',tno=1122,name='vpr')
+emp(1223,'prasad',1.5,'ghs2')
+emp(name='sudha',clg='uce-sk',sal=65000,tno=1233)
+emp(clg='aswr',tno=1231,sal=1.7,name='rajak')
+print("^"*38)

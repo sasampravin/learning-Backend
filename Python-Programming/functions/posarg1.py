@@ -1,0 +1,10 @@
+def shoinfo(sno,name,marks,clg):
+    print("{}\t{}\t{}\t{}".format(sno,name,marks,clg))
+print("-"*36)
+print("sno\tname\tmarks\tcollege")
+print("-"*36)
+shoinfo(11,'spk',83,'asw')
+shoinfo(12,'ktg',97,'asw')
+shoinfo(13,'gdm',96,'asw')
+shoinfo(14,'pk',79,'asw')
+print("-"*36)

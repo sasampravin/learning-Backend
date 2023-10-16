@@ -1,0 +1,10 @@
+#random.randrange(start,stop,step)
+import random as r
+print(r.randrange(10))
+print(r.randrange(100,180))
+print(r.randrange(120,130,3))
+print(r.randrange(0,10))
+print(r.randrange(-12,12))
+print(r.randrange(-10,100))
+print(r.randrange(-100,1))
+print(r.randrange(-1,10))

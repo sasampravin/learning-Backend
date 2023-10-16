@@ -1,0 +1,10 @@
+def sinfo(sno,name,marks,clg):
+    print("{}\t{}\t{}\t{}".format(sno,name,marks,clg))
+print("-"*35)
+print("sno\tname\tmarks\tcollege")
+print("~"*35)
+sinfo(clg='age',marks=78,sno=10,name='guna')
+sinfo(marks=87,sno=20,clg='dfc',name='army')
+sinfo(name='juffa',clg='dummy',sno=420,marks=00)
+sinfo(sno=30,clg='excel',name='no1',marks=98)
+print("-"*35)
