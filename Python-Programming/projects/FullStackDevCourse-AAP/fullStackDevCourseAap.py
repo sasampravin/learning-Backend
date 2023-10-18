@@ -299,7 +299,7 @@ elif option.lower() == 'proceed_to_pay' or option.lower() == 'pp':
 
                 if pw_choice.lower() == 'c':
                     new_password = getpass.getpass("Enter new password to replay old password : ")
-                    save_staff_password(new_possword)  # Update and save the new password
+                    save_staff_password(new_password)  # Update and save the new password
                     print("password changed successfully")
                 else:          
                     print("="*60)
